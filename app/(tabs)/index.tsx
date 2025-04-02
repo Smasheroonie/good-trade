@@ -1,6 +1,6 @@
 import { StyleSheet, View } from "react-native";
-import Featured from "../components/Featured";
 import Header from "../components/Header";
+import Featured from "../components/Featured";
 
 export default function Index() {
   return (
