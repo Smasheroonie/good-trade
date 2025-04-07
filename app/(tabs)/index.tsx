@@ -1,6 +1,7 @@
 import { StyleSheet, View } from "react-native";
 import Header from "../components/Header";
 import Featured from "../components/Featured";
+import NearMe from "../components/NearMe";
 
 export default function Index() {
   return (
@@ -8,6 +9,7 @@ export default function Index() {
       <Header />
       <View style={styles.view}>
         <Featured />
+        <NearMe />
       </View>
     </View>
   );

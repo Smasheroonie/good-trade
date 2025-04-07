@@ -17,6 +17,7 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "config": { "googleMaps": { "apiKey": "process.env.GMAPS_API_KEY" } },
     "web": {
       "bundler": "metro",
       "output": "static",
