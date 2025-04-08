@@ -11,11 +11,11 @@ export default function NearMe() {
   const mapImage: ImageSourcePropType = require("@/assets/images/map.jpg");
 
   return (
-    <View style={{ height: 300, width: "90%", marginVertical: "5%" }}>
+    <View style={{ height: 300, width: "90%", marginTop: "10%" }}>
       <Text>Near Me</Text>
       <View style={styles.container}>
         {/* <MapView style={styles.map} provider={PROVIDER_GOOGLE} /> */}
-        <Image source={mapImage} />
+        <Image style={styles.map} source={mapImage} />
       </View>
     </View>
   );
@@ -24,6 +24,7 @@ export default function NearMe() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginTop: 5,
   },
   map: {
     width: "100%",

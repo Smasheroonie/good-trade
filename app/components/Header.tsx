@@ -18,9 +18,12 @@ export default function Header() {
 const styles = StyleSheet.create({
   header: {
     display: "flex",
+    paddingTop: 35,
+    paddingBottom: 10,
     flexDirection: "column",
     width: "100%",
-    height: 100,
+    height: "auto",
+    backgroundColor: "#fff",
   },
   title: {
     display: "flex",
@@ -39,7 +42,7 @@ const styles = StyleSheet.create({
   search: {
     backgroundColor: "#dedede",
     width: "92%",
-    borderRadius: "20px",
+    borderRadius: 20,
     padding: 8,
     paddingLeft: 14,
     color: "#616161",

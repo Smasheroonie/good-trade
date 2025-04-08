@@ -4,7 +4,7 @@ import SliderItem from "./SliderItem";
 
 export default function Featured() {
   return (
-    <View style={{ height: 210, width: "90%", marginVertical: "5%" }}>
+    <View style={{ height: 210, width: "90%", marginTop: "5%" }}>
       <Text>Featured</Text>
       <View>
         <FlatList
@@ -14,7 +14,6 @@ export default function Featured() {
           )}
           horizontal
           showsHorizontalScrollIndicator={false}
-          pagingEnabled
         />
       </View>
     </View>
